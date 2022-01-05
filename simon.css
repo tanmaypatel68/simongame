@@ -1,47 +1,46 @@
 body{
-    background-color: rgb(19, 19, 43);
     text-align: center;
-    margin: 250px;
+    background-color: rgb(26, 26, 75);
 }
-.panel{
-    width:200px;
-    height:200px;
+#level-title{
+    font-family: Marker Felt, fantasy;
+    font-size: 4rem;
+    margin: 3%;
+    color: rgb(218, 224, 125);
+}
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.btn {
+    margin: 20px;
     display: inline-block;
-    cursor: pointer;
-}
-.panel:hover{
-    border: 1px solid white;
-    box-shadow: inset 0px 0px 0px 3px cyan;
-    /* box-sizing: border-box; */
-}
-
-.bottom-left-panel{
-    background-color: red;
-    border-bottom-left-radius: 100%;
-}
-.bottom-right-panel{
-    background-color: blue;
-    border-bottom-right-radius: 100%;
-}
-.top-left-panel{
-    background-color: green;
-    border-top-left-radius: 100%;
-}
-.top-right-panel{
-    background-color: yellow;
-    border-top-right-radius: 100%;
-}
-.row{
-    
-}
-.center{
-    background-color: rgb(19, 19, 43);
-    width:200px;
     height: 200px;
-    border-radius: 100%;
-    display: inline-block;
-    top: 350px;
-    left: 620px;
-    text-align: center;
-    position: absolute;
+    width: 200px;
+    border: 10px solid rgb(1, 1, 19);
+    border-radius: 20%;
+}
+.red {
+    background-color: red;
+}
+  
+.green {
+    background-color: green;
+}
+  
+  .blue {
+    background-color: blue;
+}
+  
+  .yellow {
+    background-color: yellow;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
 }
